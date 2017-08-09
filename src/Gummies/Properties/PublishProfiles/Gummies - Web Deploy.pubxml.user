@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeTP7RJPoAUuuEAl1K8YwqQAAAAACAAAAAAAQZgAAAAEAACAAAACeygvm1Uami041inMcBJ5GCuwYDlqsok9J7VcRQKD7VAAAAAAOgAAAAAIAACAAAAA7TWfb7rmWEJoWqobpb3yXygD2K4y9PtuFpYcdWJV0mIAAAACuPAK8f7hxvEaFbfiaBDmOSp2F1T5jjzCNfSXXNbvqkmm8Qr/Ot58x9/xAr0n81OfrG6Kccr7zjvOrKXmYG4LfdzgejX25MnpJtWMiVef4yacGc2UthuwVtrSlJqQrqyx3LRosCDWR7+CtJbGlSWAJkUM0GWuXL+E48AG/wf+BLUAAAADeVIAGJN+2LiAMEwwE9Ik/o7QkUQYjrXwoFpvDtQ9A9LIxcPgHbTcM/YcY1N5nMoyeEFN3JjKqHSUrHGeGMK6O</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:gummiesdbserver.database.windows.net,1433;Initial Catalog=Gummies_db;User Id=katyisgreaty@gummiesdbserver;Password=Pinkpiggy1!</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

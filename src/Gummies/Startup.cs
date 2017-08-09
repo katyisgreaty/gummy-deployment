@@ -130,7 +130,7 @@ namespace Gummies
                 Name = "Wild Strawberry Fruttini",
                 Cost = "9",
                 Country = "Italy",
-                Image = "https://www.sugarfina.com/shop/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/P/0/P0177.jpg"
+                Image = "https://www.sugarfina.com/shop/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/P/0/P0171.jpg"
             };
 
             context.Gummies.Add(autoGummy6);

@@ -1,14 +1,15 @@
-﻿-d:DEBUG
+﻿-d:RELEASE
 -d:TRACE
 -d:NETCOREAPP1_0
 -nowarn:CS1701
 -nowarn:CS1702
 -nowarn:CS1705
+-optimize
 -debug:full
 -nostdlib
 -nologo
-"C:\Users\Katy\Desktop\GummyBears\src\Gummies\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
--out:"C:\Users\Katy\Desktop\GummyBears\src\Gummies\bin\Debug\netcoreapp1.0\Gummies.dll"
+"C:\Users\Katy\Desktop\GummyBears\src\Gummies\obj\Release\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
+-out:"C:\Users\Katy\Desktop\GummyBears\src\Gummies\bin\Release\netcoreapp1.0\Gummies.dll"
 -r:"C:\Users\Katy\.nuget\packages\Microsoft.AspNetCore.Antiforgery\1.1.1\lib\netstandard1.3\Microsoft.AspNetCore.Antiforgery.dll"
 -r:"C:\Users\Katy\.nuget\packages\Microsoft.AspNetCore.Authorization\1.1.1\lib\netstandard1.3\Microsoft.AspNetCore.Authorization.dll"
 -r:"C:\Users\Katy\.nuget\packages\Microsoft.AspNetCore.Cors\1.1.1\lib\netstandard1.3\Microsoft.AspNetCore.Cors.dll"
@@ -195,7 +196,7 @@
 -r:"C:\Users\Katy\.nuget\packages\System.Threading.Timer\4.3.0\ref\netstandard1.2\System.Threading.Timer.dll"
 -r:"C:\Users\Katy\.nuget\packages\System.Xml.ReaderWriter\4.3.0\ref\netstandard1.3\System.Xml.ReaderWriter.dll"
 -r:"C:\Users\Katy\.nuget\packages\System.Xml.XDocument\4.3.0\ref\netstandard1.3\System.Xml.XDocument.dll"
--resource:"C:\Users\Katy\Desktop\GummyBears\src\Gummies\obj\Debug\netcoreapp1.0\Gummiesdotnet-compile.deps.json",Gummies.deps.json
+-resource:"C:\Users\Katy\Desktop\GummyBears\src\Gummies\obj\Release\netcoreapp1.0\Gummiesdotnet-compile.deps.json",Gummies.deps.json
 "C:\Users\Katy\Desktop\GummyBears\src\Gummies\Program.cs"
 "C:\Users\Katy\Desktop\GummyBears\src\Gummies\Startup.cs"
 "C:\Users\Katy\Desktop\GummyBears\src\Gummies\Controllers\GummiesController.cs"
